@@ -11,5 +11,5 @@ action "Deploy Worker" {
     CLOUDFLARE_ACCOUNT_ID = "$CLOUDFLARE_ACCOUNT_ID"
     CLOUDFLARE_SCRIPT_NAME = "main"
   }
-  secrets = ["CLOUDFLARE_AUTH_KEY"]
+  secrets = ["CLOUDFLARE_AUTH_KEY", "CLOUDFLARE_AUTH_EMAIL"]
 }
